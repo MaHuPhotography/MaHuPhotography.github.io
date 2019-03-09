@@ -1,0 +1,106 @@
+h1{
+	text-align: center;
+	font-family: Chalkduster;
+	font-style: italic;
+	color: black;
+
+}
+.p1{
+	text-align: center;
+	font-style: italic;
+	font-family: Apple Chancery;
+	color: black;
+}
+
+#p1{
+	text-align: center;
+	font-style: italic;
+	font-family: Apple Chancery;
+	color: white;
+}
+
+img{width: 100%}
+
+.p2{
+	text-align: center;
+	font-style: italic;
+	color: gold;
+	font-family: Al Bayan;
+}
+.img{border: 1px solid}
+
+.img1{border-radius: 50%; width: 50%
+;display: block;
+margin-left: auto; margin-right: auto;}
+
+body, html {
+  height: 100%;
+}
+.bg {
+ 
+  background-image: url("../img/background.jpg");
+  
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+  .nav{
+  	color: black
+  }
+
+}
+.p0{
+	text-align: center;
+	font-style: italic;
+	font-family: Apple Chancery;
+	color: black;
+	font-size: 20px;
+}
+
+
+.navbar{
+	background-color: black	
+}
+
+
+}
+.p3{
+	text-align: center;
+	font-style: italic;
+	color: green;
+	font-family: Apple Chancery;	
+}
+
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/img6.jpg");
+
+  /* Set a specific height */
+  height: 25%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
